@@ -3,18 +3,17 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Input;
+use App\Http\Requests ;
+use Illuminate\Support\Facades\Redirect;
 
 class HomeController extends Controller
 {
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
+    //This construct function adds LARAVEL AUTH authentication
+//    public function __construct()
+//    {
+//        $this->middleware('auth');
+//    }
 
     /**
      * Show the application dashboard.
@@ -34,5 +33,11 @@ class HomeController extends Controller
     public function search()
     {
         return view('pages.search');
+    }
+
+    public function getId()
+    {
+         $term = request('location');
+         return view('pages.search', compact('term'));
     }
 }

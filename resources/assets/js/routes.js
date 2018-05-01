@@ -5,6 +5,6 @@ import Profile from './components/Profile'
 
 export default [
     {path: '/', component: Home},
-    {path: '/search', component: Search},
+    {path: '/search/location:location', component: Search},
     {path: '/profile', component: Profile},
 ]

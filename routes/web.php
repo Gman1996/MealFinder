@@ -20,5 +20,6 @@ Auth::routes();
 Route::get('/', 'HomeController@index');
 Route::get('/profile', 'HomeController@profile');
 Route::get('/search', 'HomeController@search');
+Route::get('/search/{location}', 'HomeController@getId');
 //Route::get('/login', 'LoginController');
 //Route::get('/register', 'RegisterController');

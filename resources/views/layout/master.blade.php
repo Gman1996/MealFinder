@@ -7,7 +7,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <script>window.Laravel = { csrfToken: '{{csrf_token()}}' }</script>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNkHU-AE_0atL7_OrWfFp-vB6UGZqKXrQ&libraries=places"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNkHU-AE_0atL7_OrWfFp-vB6UGZqKXrQ&libraries=places" async defer></script>
     <title>@yield('title')</title>
     <style>
         body{
@@ -22,5 +22,6 @@
     <footer-app></footer-app>
 </div>
 <script src="{{ asset('js/app.js') }}"></script>
+@yield('script')
 </body>
 </html>

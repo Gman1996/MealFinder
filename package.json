@@ -23,6 +23,7 @@
         "font-awesome": "^4.7.0",
         "vue-google-autocomplete": "^1.1.0",
         "vue-resource": "^1.5.0",
-        "vue-router": "^3.0.1"
+        "vue-router": "^3.0.1",
+        "vue-script2": "^2.0.1"
     }
 }

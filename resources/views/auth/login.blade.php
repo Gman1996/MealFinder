@@ -1,10 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
-    <p>TimeBased: {{Uuid::generate(1)}}</p>
-    <p>NameBased: {{Uuid::generate(3,'secret', Uuid::NS_DNS)}}</p>
-    <p>TrulyRandom: {{Uuid::generate(4)}}</p>
-    <p>NameBased: {{Uuid::generate(5,'secret', Uuid::NS_DNS)}}</p>
+    {{--<p>TimeBased: {{Uuid::generate(1)}}</p>--}}
+    {{--<p>NameBased: {{Uuid::generate(3,'secret', Uuid::NS_DNS)}}</p>--}}
+    {{--<p>TrulyRandom: {{Uuid::generate(4)}}</p>--}}
+    {{--<p>NameBased: {{Uuid::generate(5,'secret', Uuid::NS_DNS)}}</p>--}}
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
