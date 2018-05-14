@@ -1,10 +1,10 @@
 <h3>Installation Instructions</h3>
-<p>Download or Clone git repository</p>
-<p>Unzip and Navigate to folder contents using command line</p>
-<p>Copy .env.example file to .env and edit database credentials there</p>
-<p>Run composer install</p>
-<p>Run php artisan key:generate</p>
-<p>Run php artisan migrate</p>
-<p>Run npm install</p>
-<p>Run npm run dev</p>
-<p>That's it!</p>
+<li>Download or Clone git repository</li>
+<li>Unzip and Navigate to folder contents using command line</li>
+<li>Copy .env.example file to .env and edit database credentials there</li>
+<li>Run composer install</li>
+<li>Run php artisan key:generate</li>
+<li>Run php artisan migrate</li>
+<li>Run npm install</li>
+<li>Run npm run dev</li>
+<li>That's it!</li>
