@@ -7,4 +7,4 @@
 <li>Run php artisan migrate</li>
 <li>Run npm install</li>
 <li>Run npm run dev</li>
-<li>That's it!</li>
+<p><b>That's it!</b></p>
